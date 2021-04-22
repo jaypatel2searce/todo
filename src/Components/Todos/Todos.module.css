@@ -1,0 +1,52 @@
+.OpenTodo, .ClosedTodo {
+    width: 300px;
+    display: inline;
+    float: left;
+	padding: 10px;
+    margin: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.OpenTodo {
+    background-color: white;
+}
+
+.ClosedTodo {
+    background-color: rgb(219, 255, 215);
+}
+
+.adButton {
+    padding: 10px;
+    border: none;
+    margin: 10px 0;
+    width: 200px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 180, 42);
+}
+
+.EditBtn, .DeleteBtn, .CompleteBtn {
+    padding: 10px;
+    width: 80px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.EditBtn {
+    background-color: rgb(71, 143, 250);
+}
+
+.DeleteBtn {
+    background-color:  rgb(253, 82, 82);
+}
+
+.CompleteBtn {
+    background-color:  rgb(38, 199, 46);
+}
+
+
